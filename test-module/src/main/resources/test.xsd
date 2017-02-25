@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns="http://zaenk.yo/test"
+            targetNamespace="http://zaenk.yo/test">
+
+    <xsd:complexType name="PojoWannabe">
+        <xsd:sequence>
+            <xsd:element name="MyName" type="xsd:string"/>
+            <xsd:element name="MyAge" type="xsd:int"/>
+            <xsd:element name="MyFriends" type="xsd:string" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+</xsd:schema>

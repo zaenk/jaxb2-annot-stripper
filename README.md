@@ -1,2 +1,6 @@
 # jaxb2-annot-stripper
-Simpla sample XJC Plugin to remove @Xml* annotations
+Simple sample XJC Plugin to remove @Xml* annotations
+
+## Usage
+
+See `test-module/pom.xml`
